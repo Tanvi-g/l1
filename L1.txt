@@ -1,0 +1,92 @@
+Circular Ref-error  use alias 
+synthetic key-warning   use alias
+default view-internal table view
+load 2 scripts- default concatenate-1 table
+default join-full outer join-1 table
+keep better than join as no duplicates present
+applymap better than keep
+join with alias-cartesian product
+aggregate functions-straight table not pivot table
+trellis chart-not for pivot and straight table
+binary statement-only 1 per code at top. used to use 1 file in another used in incremental load
+let-calculates expression
+set-assignes an expression
+best data loading-coreect name convention, security script, hidden script, comments
+colors
+green-selected
+white-possible
+grey-excluded
+
+Qliksense
+green-selected tick
+white-possible
+light grey-alternative
+dark grey tick-selected excluded
+dark grey-excluded
+
+performance
+green-good
+red-bad
+
+Qliksense
+green-good
+orange-moderate
+red-bad
+
+setting particular colours-Visual Cues
+
+to show total on bar-sum of total
+
+
+
+Qlik community site
+examslab
+
+
+
+
+Generate seq numbers-
+Parallelism that allows data to operate in multiple components-data parallelism
+rollup behaviour-input selection, temp init, rollup, finalisation, output selection
+not a attribute of rollup-count
+partition br rr-opposite of interleave
+fuse-joins files with different formats
+sort-does not support pipeline paralleslism
+string concat-give parameter in double quotes
+
+Raid0-mirroring
+raid5,10-parity bits
+
+vdisk failure-raid
+node failure-clique
+amp failure-fallback
+derived and volatile table-spool space
+
+EXPLAIN command
+confidence-column been used frequently
+low confidence-few statistics
+With residual condition-where clause
+PPI-partition primary index
+join index
+
+fastload
+2 error loads-et, uv
+et-constraint fail data
+uv-duplicate data
+
+Phases-aquisition, application
+
+
+multiload
+max 5 tables can be inserted
+
+
+
+
+fastload, multiload, tpump
+target table-no si
+no join index
+no triggers
+no referential key integrigity
+
+tpt works for fastload
